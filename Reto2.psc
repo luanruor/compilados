@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 //'modificaciòn prueba'//
 
+=======
+>>>>>>> parent of 6d5d907 (Delete Reto2.psc)
 Algoritmo Reto2
 	Escribir 'Ingrese Código Estudiante:'
 	Leer codigo

@@ -1,3 +1,5 @@
+//'modificaciòn prueba'//
+
 Algoritmo Reto2
 	Escribir 'Ingrese Código Estudiante:'
 	Leer codigo

@@ -6,22 +6,18 @@
  </head>
 
  <body>
-  
-  <div style="style="width:300px; height:200px; margin:auto">
 
-    <form action="" method="post">
-     
-     <fieldset>
+    <form action="">
 
-        <legend>Datos de Registro</legend>
+        <fieldset>
 
-        <ul style="list-style:none">
+        <legend>Datos de Ingreso</legend>
+
+        <ul>
             <li>
-                <label for="Selecciona" id="Seleccion">Selecciona el tipo de documento</label>
-                <br>
-                <br>
-                <select id="selecciona" name="Selecciona" required>
-                    <option>Selecciona una opción</option>
+                <label for="Selecciona">Selecciona el tipo de documento</label>
+                <select name="Selecciona" required>
+                    <option>Selecciona</option>
                     <option>Cédula de ciudadania</option>
                     <option>Tarjeta de identidad</option>
                     <option>Cédula de extranjería</option>
@@ -31,22 +27,16 @@
             </li>
             
             <br>
-            <hr>
 
             <li>
                 <label for="documento"> Número de documento </label>
-                <br>
-                <br>
-                <input type="tel" id="documento" name="documento" placeholder="123456789" required>
+                <input type="tel" name="documento" placeholder="123456789" required>
             </li>
             
             <br>
-            <hr>
         
             <li>
                 <label for="nombre">Escriba su nombre</label>
-                <br>
-                <br>
                 <input type="text" id="nombre" name="nombre" required>  
             </li>
             <br>
@@ -54,11 +44,11 @@
             <input type="submit" value="Enviar" name="enviar">
 
          </ul>
-      
-     </fieldset>
-     
+
+        </fieldset>
+
     </form>
-  </div>                                                        
+
  </body>
 
  </html>

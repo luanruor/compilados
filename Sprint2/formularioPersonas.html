@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Equipo Compilados.net</title>
+    </head>
+    <body bgcolor="#82E0AA">
+        <form>
+            <table border="1" cellpadding="4">
+                <tr>
+                    <td colspan="3"><strong>Registro datos Persona</strong></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><img src="img/doc.png"</td>
+                    <td>Tipo de Documento</td>
+                    <td>Documento</td>
+                </tr>
+                <tr>
+                    <td><select required name="tipoid">
+                    <option value="CC">Cédula de ciudadania</option>
+                    <option value="TI">Tarjeta de identidad</option>
+                    <option value="CE">Cédula de extranjería</option>
+                    <option value="PS">Pasaporte</option>
+                </select></td>
+                <td><input type="number" name="numeroid" placeholder="Documento" required></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><img src="img/user.png"</td>
+                    <td>Nombres</td>
+                    <td>Apellidos</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="nombres" required></td>
+                    <td><input type="text" name="apellidos" required></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><img src="img/date.png"</td>
+                    <td>Rol</td>
+                    <td>Genero</td>
+                </tr>
+                <tr>
+                    <td><select name="rol" required>
+                    <option value="Estudiante">Estudiante</option>
+                    <option value="Administrativo">Administrativo</option>
+                    <option value="Docente">Docente</option>
+                    <option value="Otro">Otro</option>
+                    </select></td>
+                    <td><select name="genero" required>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><img src="img/fes.png"</td>
+                    <td>Correo</td>
+                    <td>Fecha Nacimiento</td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="correo" required></td>
+                    <td><input type="date" name="fechanacimiento" required></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"><img src="img/dir.png"</td>
+                    <td>Telefono</td>
+                    <td>Direccion</td>
+                </tr>
+                <tr>
+                    <td><input type="number" name="telefono" required></td>
+                    <td><input type="text" name="direccion" required></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="submit" value="Registrar"></td>
+                </tr>
+            </table>
+        </form>
+        <p>
+            <strong>Equipo Compilados.net</strong>
+        </p>
+    </body>
+</html>

@@ -13,3 +13,18 @@ body {
   th, td {
     border: 1px solid #000000;
   }
+
+.caja{
+    width: 400px;
+    height: 330px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    background: #10c5fc;
+    box-shadow: 10px 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+ul{
+    list-style: none;
+}

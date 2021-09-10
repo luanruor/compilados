@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Equipo Compilados.net</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <form>
+            <table class="table table-striped table-hover table-sm">
+                <tr>
+                    <td colspan="3">
+                        <strong>
+                            <i class="bi bi-bank fs-1 text-warning">
+                            Registro datos Personas
+                            </i>
+                        </strong>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-center bg-danger">
+                        <img src="img/doc.png">
+                    </td>
+                    <td>
+                        Tipo de Documento
+                        <br>
+                        <select required name="tipoid" class="form-select">
+                            <option value="CC">
+                                Cédula de ciudadania
+                            </option>
+                            <option value="TI">
+                                Tarjeta de identidad
+                            </option>
+                            <option value="CE">
+                                Cédula de extranjería
+                            </option>
+                            <option value="PS">
+                                Pasaporte
+                            </option>
+                        </select>
+                    </td>
+                    <td>
+                        Documento
+                        <br>
+                        <input type="number" name="numeroid" placeholder="Documento" required class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-center bg-warning">
+                        <img src="img/user.png">
+                    </td>
+                    <td>
+                        Nombres
+                        <br>
+                        <input type="text" name="nombres" required class="form-control">
+                    </td>
+                    <td>
+                        Apellidos
+                        <br>
+                        <input type="text" name="apellidos" required class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-center bg-info">
+                        <img src="img/date.png">
+                    </td>
+                    <td>
+                        Rol
+                        <br>
+                        <select name="rol" required class="form-select">
+                            <option value="Estudiante">
+                                Estudiante
+                            </option>
+                            <option value="Administrativo">
+                                Administrativo
+                            </option>
+                            <option value="Docente">
+                                Docente
+                            </option>
+                            <option value="Otro">
+                                Otro
+                            </option>
+                        </select>
+                    </td>
+                    <td>
+                        Genero
+                        <br>
+                        <select name="genero" required class="form-select">
+                            <option value="Masculino">
+                                Masculino
+                            </option>
+                            <option value="Femenino">
+                                Femenino
+                            </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-center bg-primary">
+                        <img src="img/fes.png">
+                    </td>
+                    <td>
+                        Correo
+                        <br>
+                        <input type="email" name="correo" required class="form-control">
+                    </td>
+                    <td>
+                        Fecha Nacimiento
+                        <br>
+                        <input type="date" name="fechanacimiento" required class="form-control"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td class="text-center bg-success">
+                        <img src="img/dir.png">
+                    </td>
+                    <td>
+                        Telefono
+                        <br>
+                        <input type="number" name="telefono" required class="form-control">
+                    </td>
+                    <td>
+                        Direccion
+                        <br>
+                        <input type="text" name="direccion" required class="form-control">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="submit" value="Registrar" class="btn btn-primary">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <p>
+            <strong>Equipo Compilados.net</strong>
+        </p>
+    </body>
+</html>

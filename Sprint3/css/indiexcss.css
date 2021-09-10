@@ -1,0 +1,10 @@
+.encabezado{grid-area: "Encabezado";}
+.menu{grid-area: "Menu";}
+.principal{grid-area: "Principal";}
+.pie{grid-area: "Pie";}
+
+.contenedor{
+    grid-template-areas: "Encabezado Encabezado Encabezado Encabezado"
+    "Menu Principal Principal Principal"
+    "Pie Pie Pie Principal";
+}

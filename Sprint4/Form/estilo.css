@@ -1,0 +1,12 @@
+#contenedor-divs{
+    border:1px solid red;
+    margin-top:10px;
+    width:100%;
+  }
+  
+  #contenedor-divs .item{
+    border:1px solid blue;
+    height:50px;
+    margin-bottom:5px;
+    margin-top:5px;
+  }

@@ -1,11 +1,11 @@
 #contenedor-divs{
-    border:1px solid red;
+    border:1px solid rgb(0, 255, 106);
     margin-top:10px;
     width:100%;
   }
   
   #contenedor-divs .item{
-    border:1px solid blue;
+    border:1px solid rgb(255, 0, 221);
     height:50px;
     margin-bottom:5px;
     margin-top:5px;

@@ -30,6 +30,10 @@
   color: #fff;
 }
 
+.tabMenu li:hover:not(.active) {
+  background-color: #4caf50;
+}
+
 .tabContent {
   display: none;
 }

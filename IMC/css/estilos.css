@@ -1,5 +1,7 @@
 .tabMenu {
   width: 100%;
+  display: flex;
+  justify-content: center;
   background: hsl(0, 0%, 93%);
   height: auto;
   margin: 0;
@@ -39,5 +41,8 @@
 }
 
 .tabs {
-  margin: 15px 0 0;
+  margin: auto;
+  margin-top: 25px;
+  width: 80%;
+  height: auto;
 }
